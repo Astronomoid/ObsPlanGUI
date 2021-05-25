@@ -23,3 +23,5 @@ astroplan
 tkinter
 PIL
 tkcalender
+
+dict_from_gui.py can be used separately. Function details are specified in it.
