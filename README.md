@@ -9,3 +9,17 @@ This code uses Tkinter, Astropy and Astroplan libraries
 Go to the directory and execute:
 
 python3 or python astroplan_hct_iia.py
+
+
+Requirements:
+
+socket
+datetime
+numpy
+astropy
+pytz
+matplotlib
+astroplan
+tkinter
+PIL
+tkcalender
