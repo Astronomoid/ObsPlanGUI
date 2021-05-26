@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
-#!/usr/bin/env python
-# coding: utf-8
-
 import socket
 import datetime
 import numpy as np
@@ -20,7 +14,6 @@ from astropy.coordinates import SkyCoord, EarthLocation
 from astroplan.plots import plot_altitude, dark_style_sheet, plot_finder_image, plot_airmass
 
 
-# In[ ]:
 timezoneIAO = timezone('Asia/Kolkata')
 timezoneIAO = timezoneIAO.localize(datetime.datetime(2012, 7, 10, 12, 0))
 hct = Observer.at_site('iao',timezone= timezoneIAO.tzinfo)
