@@ -12,7 +12,7 @@ from tkcalendar import Calendar
 
 """
 
-This module tkinter library to get user input from GUI window
+This module uses tkinter library to get user input from GUI window
 
 """
 
