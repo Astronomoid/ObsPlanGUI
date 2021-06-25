@@ -64,8 +64,7 @@ def get_values():
                                 onvalue=1,fg='white',bg='black',selectcolor='blue',
                                offvalue=0, height=6, width=20, anchor='w', font=('Havletica', 12))
 
-    cal = Calendar(top, selectmode='day', date_pattern='yyyy mm dd',
-                   year= 2021, month=6, day=1)
+    cal = Calendar(top, selectmode='day', date_pattern='yyyy mm dd')
     date = tk.Label(top, text='Select Obs Day ', fg='white', bg='black',font=('DejaVu',12))
     close_button = tk.Button(top, text = "Click and Quit", command = close_window,font=('DejaVu',12), bg='white',fg='red')
 
